@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright (c) 2021. All rights reserved.
+  ~ @author: Volodymyr Hryvinskyi <mailto:volodymyr@hryvinskyi.com>
+  -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Hryvinskyi\ResponsiveImages\Module\SrcInterface"
+                type="Hryvinskyi\ResponsiveImages\Module\Src"/>
+    <preference for="Hryvinskyi\ResponsiveImages\Module\ImageInterface"
+                type="Hryvinskyi\ResponsiveImages\Module\Image"/>
+    <preference for="Hryvinskyi\ResponsiveImages\Module\SourceInterface"
+                type="Hryvinskyi\ResponsiveImages\Module\Source"/>
+    <preference for="Hryvinskyi\ResponsiveImages\Module\SizeInterface"
+                type="Hryvinskyi\ResponsiveImages\Module\Size"/>
+    <preference for="Hryvinskyi\ResponsiveImages\Module\PictureInterface"
+                type="Hryvinskyi\ResponsiveImages\Module\Picture"/>
+</config>
